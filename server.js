@@ -10,12 +10,12 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one',function(req,res){
-    res.send('Article 1 is requested');
+    res.send('Article-one is requested');
 });
 
 
 app.get('/article-two',function(req,res){
-    res.send('Article 2 is requested');
+    res.send('Article two is requested');
 });
 
 
